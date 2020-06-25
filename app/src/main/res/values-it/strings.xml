@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Magazine</string>
+    <string name="movies_section_name">Film</string>
+    <string name="splash_activity_loading">I dati di questa applicazione sono stati forniti da www.themoviedb.org</string>
+    <string name="nav_discover">Scopri</string>
+    <string name="popular_tab_label">Popolari</string>
+    <string name="top_rated_tab_label">Più votati</string>
+    <string name="upcoming_tab_label">In arrivo</string>
+    <string name="now_playing_tab_label">Al cinema</string>
+    <string name="movie_list_no_more_items">Non ci sono più film da mostrare in questa lista</string>
+    <string name="cancel_button">Annulla</string>
+    <string name="ok_button">Vai</string>
+
+
+    <array name="sort_properties">
+        <item>Popolarità descrescente</item>
+        <item>Popolarità crescente</item>
+        <item>Valutazione descrescente</item>
+        <item>Valutazione crescente</item>
+        <item>Data rilascio decrescente</item>
+        <item>Data rilascio crescente</item>
+        <item>Titolo (A-Z)</item>
+        <item>Titolo (Z-A)</item>
+    </array>
+    <string name="review_list_no_more_items">Non ci sono più recensioni da mostrare</string>
+    <string name="movie_detail_tab_label">Dettagli</string>
+    <string name="movie_credit_tab_label">Crediti</string>
+    <string name="movie_reviews_tab_label">Recensioni</string>
+    <string name="movie_rate_label">Voto</string>
+    <string name="movie_vote_count_label">Voti</string>
+    <string name="collection_parts_tab_label">Collezione</string>
+    <string name="created_by">Creato da: </string>
+    <string name="search_message_insert_text">Inserisci del testo</string>
+    <string name="nothing_found">Nessun risultato</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Movie Magazine</string>
+    <string name="splash_activity_loading">The data of this application is provided by www.themoviedb.org</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="movies_section_name">Movies</string>
+    <string name="nav_discover">Discover</string>
+    <string name="popular_tab_label">Popular</string>
+
+    <string name="top_rated_tab_label">Top Rated</string>
+    <string name="upcoming_tab_label">Upcoming</string>
+    <string name="now_playing_tab_label">Now playing</string>
+    <string name="movie_list_no_more_items">There are no more movies to display in this list</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ok_button">OK</string>
+
+    <string-array name="sort_properties">
+        <item>Popularity desc</item>
+        <item>Popularity asc</item>
+        <item>Rating desc</item>
+        <item>Rating asc</item>
+        <item>Release date desc</item>
+        <item>Release date asc</item>
+        <item>Title (A-Z)</item>
+        <item>Title (Z-A)</item>
+    </string-array>
+
+    <string name="review_list_no_more_items">There are no more reviews to display</string>
+    <string name="movie_detail_tab_label">Details</string>
+    <string name="movie_credit_tab_label">Credits</string>
+    <string name="movie_reviews_tab_label">Reviews</string>
+    <string name="movie_rate_label">Vote</string>
+    <string name="movie_vote_count_label">Votes</string>
+    <string name="collection_parts_tab_label">Collection</string>
+    <string name="created_by">Created by:</string>
+    <string name="search_message_insert_text">Please enter some text</string>
+    <string name="nothing_found">Nothing found</string>
+    <string name="people_list_no_more_items">No more people to show</string>
+    <string name="collections_list_no_more_items">There are no more collections</string>
+    <string name="lists_list_no_more_items">No more lists</string>
+    <string name="search_movies_tab_label">Movies</string>
+    <string name="search_lists_tab_label">Lists</string>
+    <string name="search_people_tab_label">People</string>
+    <string name="search_collections_tab_label">Collections</string>
+    <string name="nav_search">Search</string>
+    <string name="press_again_to_exit">Press again to exit</string>
+
+
+</resources>

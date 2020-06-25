@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.unibo.studio.moviemagazine">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".activities.MoviesSectionActivity"/>
+
+        <activity
+            android:name=".activities.DiscoverSectionActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <activity android:name=".activities.SearchSectionActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".activities.SplashActivity"
+            android:noHistory="true">
+            <!--The no history flag prevents the splash activity from reappearing if the user presses back -->
+            <!--android:theme="@style/SplashTheme"-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
